@@ -4,3 +4,41 @@ td{
     height: 50px;
     text-align: center;
 }
+.title{
+    display: flex;
+    height: 100px;
+    margin-top: 50px;
+    
+}
+.title ul{
+    display: flex;
+    list-style: none;
+    margin-right: 160px;
+    
+}
+.title li{
+    padding-left: 300px;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 50px;
+   text-align: center;
+}
+a:hover{
+    color: #B2FF00;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #321A4A;
+    margin: 0 auto;
+    align-items: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+   margin-bottom: 20px;
+}
