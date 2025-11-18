@@ -1,6 +1,156 @@
-th,
-td{
-    width: 100px;
-    height: 50px;
-    text-align: center;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  background-color: #321a4a;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: Inter;
+}
+
+/*шапка*/
+.header {
+  margin-top: 50px;
+  margin-bottom: 107px;
+}
+.header-list {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 300px;
+  width: 1600px;
+  height: 100px;
+}
+
+.list-item {
+  width: 170px;
+  list-style: none;
+  height: 50px;
+  gap: 300px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
+
+.white-border {
+  width: 1600px;
+  height: 805px;
+  border-radius: 60px;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+}
+
+.white-border p {
+  margin: 0 auto;
+  width: 680px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.pink-block {
+  width: 1250px;
+  height: 630px;
+  border-radius: 60px;
+  background-color: #fda6d7;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  width: 300px;
+  height: 50px;
+  background: #d9d9d9;
+  border-radius: 30px;
+  border: none;
+  margin-top: 60px;
+  padding-left: 23px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+form input::placeholder,
+select {
+  padding-left: 23px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.second-row input,
+select {
+  margin: 0px;
+}
+
+.third-row textarea {
+  width: 1000px;
+  height: 250px;
+  background-color: #d9d9d9;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+textarea::placeholder,
+textarea {
+  padding-top: 9px;
+  padding-left: 23px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  border: none;
+}
+
+.third-row {
+  margin: 0 auto;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #321a4a;
 }
