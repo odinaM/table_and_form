@@ -1,15 +1,15 @@
+
 th,
 td{
     width: 100px;
     height: 50px;
     text-align: center;
 }
-.title{
-    display: flex;
-    height: 100px;
-    margin-top: 50px;
-    
+body{
+    font-family: "Inter", sans-serif;
 }
+
+
 .title ul{
     display: flex;
     list-style: none;
@@ -40,5 +40,11 @@ a{
 .img{
     width: 100px;
     height: 100px;
-   margin-bottom: 20px;
+
+}
+.title_img{
+   margin-top:50px;
+}
+.li_head{
+    margin-top: 75px;
 }
