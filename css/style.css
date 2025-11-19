@@ -1,6 +1,14 @@
-th,
-td{
-    width: 100px;
-    height: 50px;
-    text-align: center;
+body{
+    width: 1920px;
+    background-color: #321A4A;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
