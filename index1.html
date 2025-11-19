@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="sut">
+        <h2>Регистрация</h2>
     <form action="">
-        <input type="text" placeholder="hello">
-        <input type="tel" value="1213">
-        <input type="email">
-        <input type="number">
-        <input type="checkbox">
-        <input type="submit">
-        <select>
-            <option value="0">Test 1</option>
-            <option value="0">Test 2</option>
-            <option value="0">Test 3</option>
-        </select>
-        <textarea placeholder="2324"></textarea>
+        <label for="fullName">Введите ваше ФИО:</label>
+        <input type="text" placeholder="Введите ФИО">
+
+        <label for="email">Введите ваш Email</label>
+        <input type="email" placeholder="Введите email">
+
+        <label for="login">Введите ваш логин</label>
+        <input type="login" placeholder="Введите логин">
+
+        <label for="password">Введите ваш пароль</label>
+        <input type="password" placeholder="Введите пароль">
     </form>
+    <button>Войти</button>
+    <p class="p">Есть аккаунт?</p>
+    <p class="pp">Войти</p>
     </div>
 </body>
 </html>
