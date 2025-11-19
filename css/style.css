@@ -7,7 +7,7 @@
 }
 
 body {
-  width: 1920px;
+  max-width: 1920px;
   background-color: #321a4a;
   margin: 0 auto;
   padding: 0px;
@@ -38,8 +38,11 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
-
   color: #ffffff;
+}
+
+.list-img{
+    list-style: none;
 }
 
 .white-border {
@@ -136,6 +139,7 @@ textarea {
   line-height: 29px;
   color: #000000;
   border: none;
+  font-family: Inter;
 }
 
 .third-row {
