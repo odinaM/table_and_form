@@ -12,3 +12,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+.sut{
+    border: 1px solid #fff;
+    width: 1200px;
+    height: 1450px;
+}
