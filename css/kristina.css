@@ -1,0 +1,48 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  background-color: #321A4A;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: Inter;
+}
+
+.full {
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
+}
+
+.h1-full{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.h2-full {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    color: #ffffff;
+}
+
+table {
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+}
+
+.th-vce,
