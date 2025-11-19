@@ -15,34 +15,59 @@ body {
 }
 
 .full {
-    width: 1200px;
-    height: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #ffffff;
-    border-radius: 60px;
+  width: 1200px;
+  height: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+  border-radius: 60px;
+  margin-top: 50px;
 }
 
 .h1-full{
-    font-size: 36px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: #ffffff;
 }
 
 .h2-full {
-    font-size: 36px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    margin-left: 150px;
-    color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  color: #ffffff;
 }
 
 table {
-    border: 1px solid #ffffff;
-    margin: 0 auto;
+  width: 800px;
+  height: 490px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+  font-size: 24px;
+  margin: 0 auto;
 }
 
-.th-vce,
+th{
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.th-vce, .td-vce {
+  width: 300px;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+}
+
+.td-last {
+  width: 800px;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+}
